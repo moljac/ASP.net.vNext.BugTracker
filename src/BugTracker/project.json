@@ -20,10 +20,12 @@
     "Microsoft.AspNet.SignalR.Server": "0.1-alpha-*",
     "Microsoft.AspNet.StaticFiles": "0.1-alpha-*",
     "Microsoft.Framework.ConfigurationModel": "0.1-alpha-*",
-    "Microsoft.Framework.DependencyInjection": "0.1-alpha-*"
+    "Microsoft.Framework.DependencyInjection": "0.1-alpha-*",
+    "Nowin.vNext": ""
   },
   "commands": {
     "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://localhost:5002",
+    "web-nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext server.urls=http://localhost:5004",
     "run": "run server.urls=http://localhost:5003"
   },
   "configurations": {
