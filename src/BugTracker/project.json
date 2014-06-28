@@ -26,6 +26,7 @@
   "commands": {
     "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://localhost:5002",
     "web-nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext server.urls=http://localhost:5004",
+    "web-firefly": "Microsoft.AspNet.Hosting --server Firefly",
     "run": "run server.urls=http://localhost:5003"
   },
   "configurations": {
